@@ -11,9 +11,10 @@
     <button type="button" onclick="send()">Submit</button>
     <script type="text/javascript">
         function send() {
-            alert(5)
             let name = document.getElementById('user').value
-            alert(name)
+            name = name.toLowerCase()
+            if(name=="sowndarya" || name=="dhanyaa")
+                alert("Happy birthday "+name)
         }
     </script>
 </body>
